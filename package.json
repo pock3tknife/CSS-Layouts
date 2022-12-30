@@ -1,0 +1,19 @@
+{
+  "name": "css-layouts",
+  "version": "1.0.0",
+  "description": "Pure CSS and Html layouts",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pock3tknife/CSS-Layouts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pock3tknife/CSS-Layouts/issues"
+  },
+  "homepage": "https://github.com/pock3tknife/CSS-Layouts#readme"
+}
