@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Split Screen</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="resources/normalize.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="resources/font.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- magnific popup -->
+    <link
+      rel="stylesheet"
+      href="resources/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+    <!-- animate css -->
+    <link rel="stylesheet" href="resources/animate.css-main/animate.css" />
+    <!-- custom (main) css -->
+    <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/magazine.css" />
+  </head>
+  <body style="font-family: 'Raleway', sans-serif; background: #fff">
+    <!-- header -->
+    <header class="headerCustom" id="intro">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand-and-toggler">
+            <a href="index.html" class="navbar-brand">
+              CSS<span>.</span>Layouts
+            </a>
+            <button type="button" class="navbar-toggler" id="navbar-toggler">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="navbar-collapse">
+            <ul class="navbar-nav" style="list-style: none;">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="cards.html" class="nav-link">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a href="splitscreen.html" class="nav-link">Split Screen</a>
+              </li>
+              <li class="nav-item">
+                <a href="asymmetrical.html" class="nav-link">Asymmetrical</a>
+              </li>
+              <li class="nav-item">
+                <a href="magazine.html" class="nav-link">Magazine</a>
+              </li>
+              <li class="nav-item">
+                <a href="fshape.html" class="nav-link">FShape</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+	  <section class = "banner">
+		<div class = "banner-main-content">
+			<h2>GET THE WORLD'S LATEST TECH NEWS</h2>
+			<h3>World's Leading Tech News Portal</h3>
+
+			<button>
+				<a href = "#">Know More</a>
+			</button>
+
+			<div class = "current-news-head">
+				<h3>Apple Glasses: What we expect, what we think we are <span>by scott stein</span></h3>
+
+				<h3>What's it's like to have Elon Musk's old phone number <span>by abrar al-heeti</span></h3>
+
+				<h3>Watch the exact moment Chris Pratt accidentally deletes 51, 000 emials <span>by goel fashingbauer</span></h3>
+
+				<h3>Richard Branson's Virgin Orbit will launch a rocket from midair Sunday <span>by eric mack</span></h3>
+			</div>
+		</div>
+
+		<div class = "banner-sub-content">
+			<div class = "hot-topic">
+				<img src = "assets/magazine/banner-news-1.jpg" alt = "" style="width: 100%;">
+
+				<div class = "hot-topic-content">
+					<h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+					<h3>New Topic 1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus iusto fugit unde.</p>
+					<a href = "#">Read More</a>
+				</div>
+			</div>
+
+			<div class = "hot-topic">
+				<img src = "assets/magazine/banner-news-2.jpg" alt = "" style="width: 100%;">
+
+				<div class = "hot-topic-content">
+					<h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+					<h3>New Topic 1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus iusto fugit unde.</p>
+					<a href = "#">Read More</a>
+				</div>
+			</div>
+
+			<div class = "hot-topic">
+				<img src = "assets/magazine/banner-news-3.jpg" alt = "" style="width: 100%;">
+
+				<div class = "hot-topic-content">
+					<h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+					<h3>New Topic 1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus iusto fugit unde.</p>
+					<a href = "#">Read More</a>
+				</div>
+			</div>
+
+			<div class = "hot-topic">
+				<img src = "assets/magazine/banner-news-4.jpg" alt = "" style="width: 100%;">
+
+				<div class = "hot-topic-content">
+					<h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+					<h3>New Topic 1</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus iusto fugit unde.</p>
+					<a href = "#">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<hr>
+
+	<main>
+		<section class = "main-container-left">
+			<h2>Top Stories</h2>
+			<div class = "container-top-left">
+				<article>
+					<img src = "assets/magazine/top-left.jpg" style="width: 100%;">
+
+					<div>
+						<h3>Best Used Cars Under $20, 000 for families</h3>
+
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit? Facere veritatis sapiente eveniet quibusdam.</p>
+
+						<a href = "#">Read More <span>>></span></a>
+					</div>
+				</article>
+			</div>
+
+			<div class = "container-bottom-left">
+				<article>
+					<img src = "assets/magazine/bottom-left-1.jpg"  style="width: 100%;">
+					<div>
+						<h3>Best smart speakers for the year</h3>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+
+						<a href = "#">Read More <span>>></span></a>
+					</div>
+				</article>
+
+				<article>
+					<img src = "assets/magazine/bottom-left-2.jpg" style="width: 100%;">
+					<div>
+						<h3>iPad Pro, reviewed: Has the iPad become my main computer now?</h3>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+
+						<a href = "#">Read More <span>>></span></a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class = "main-container-right">
+			<h2>Latest Stories</h2>
+			
+			<article>
+				<h4>just in </h4>
+				<div>
+					<h2>Here's how to track your stimulus check with the IRS Get My Payment Portal</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+					<a href = "#">Read More <span>>></span></a>
+				</div>
+				<img src = "assets/magazine/right-1.jpg" style="width: 100%;">
+			</article>
+
+			<article>
+				<h4>just in </h4>
+				<div>
+					<h2>The best outdoor games to play with your family</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+					<a href = "#">Read More <span>>></span></a>
+				</div>
+				<img src = "assets/magazine/right-2.jpg" style="width: 100%;">
+			</article>
+
+			<article>
+				<h4>just in </h4>
+				<div>
+					<h2>Why walk? Check out the best electric scooters and e-bikes for 2020</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+					<a href = "#">Read More <span>>></span></a>
+				</div>
+				<img src = "assets/magazine/right-3.jpg" style="width: 100%;">
+			</article>
+
+			<article>
+				<h4>just in </h4>
+				<div>
+					<h2>Disneyland Paris will stream its Lion King stage show Friday night</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+					<a href = "#">Read More <span>>></span></a>
+				</div>
+				<img src = "assets/magazine/right-4.jpg" style="width: 100%;">
+			</article>
+
+			<article>
+				<h4>just in </h4>
+				<div>
+					<h2>Looking at a phone's lock screen also requries a warrant, judge rules</h2>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+					<a href = "#">Read More <span>>></span></a>
+				</div>
+				<img src = "assets/magazine/right-5.jpg" style="width: 100%;">
+			</article>
+		</section>
+	</main>
+
+
+    <!-- footer -->
+    <footer class="footer center">
+      <div class="container">
+        <p class="text">
+          Copyright &copy; CSS.Layouts Website | All Rights Reserved
+        </p>
+        <div class="footer-links">
+          <a href="#" class="center">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="center">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="center">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="center">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="center">
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- jQuery -->
+    <script src="resources/jquery-3.5.1.js"></script>
+    <!-- magnific popup -->
+    <script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- owl carousel -->
+    <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- wow js -->
+    <script src="resources/WOW-master/dist/wow.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
