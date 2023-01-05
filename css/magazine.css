@@ -93,7 +93,7 @@ hr {
 }
 
 .current-news-head {
-  background: #fff;
+  /*background: #fff;*/
   padding: 20px;
   font-size: 12px;
   margin: 20px 0;
@@ -225,7 +225,7 @@ main a:hover {
 }
 
 .container-bottom-left {
-  background: #f3f3f3;
+  /* background: #f3f3f3;*/
   margin: 15px 30px;
 }
 
